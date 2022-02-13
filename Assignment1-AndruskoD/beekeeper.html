@@ -1,0 +1,131 @@
+<!-- Delilah Andrusko -->
+
+<html lang="en">
+
+<head>
+
+
+
+    <link rel="stylesheet" type="text/css" href="beekeeper.css" />
+
+    <h1>Welcome to BeeKeeper!</h1>
+
+    <img src="bee.jpg" alt="BeeKeeper">
+
+    <meta charset="UTF-8">
+    <!--The line to separete the header from the body is adjusted in the css file-->
+    <hr></hr>
+</head>
+
+<!--sign up boxes-->
+
+<body style='background-color: rgb(244, 248, 247);'>
+    <h3>
+        <em>Sign Up Below</em>
+    </h3>
+    <form class="addMore" title="Please Fill Out This Field!">
+        Username :
+        <input type="text" name="user">
+    </form>
+    <form class="addMore" title="Please Fill Out This Field!" )>
+        Email Address :
+        <input type="text" name="email">
+    </form>
+
+    <form class="addMore" title="Please Fill Out This Field!">
+
+        <label for="bdate">Birthdate :</label>
+
+        <input type="date" id="start" name="bdate" value="" min="1999-01-01" max="2050-01-01">
+
+    </form>
+
+    <form class="addMore" title="Please Fill Out This Field!">
+        Password :
+        <input type="password" name="pass1">
+    </form>
+    <form class="addMore" title="Please Fill Out This Field!">
+        Verify Password :
+        <input type="password" name="pass2">
+    </form>
+
+
+
+    <!--radio buttons-->
+    <h4><em>Please Choose Account:</em></h4>
+    <form>
+
+        <div>
+            <input type="radio" id="Choice1" name="type" value="one">
+            <label for="Choice1">Personal</label>
+
+            <input type="radio" id="Choice2" name="type" value="two">
+            <label for="Choice2">Business</label>
+
+            <input type="radio" id="Choice3" name="type" value="three">
+            <label for="Choice3">Enterprise</label>
+
+            <input type="radio" id="Choice4" name="type" value="four">
+            <label for="Choice3">Mail</label>
+        </div>
+
+    </form>
+    <!--submit box-->
+    <form method="GET" action="beekeeper_completed.html">
+
+        <input type="submit" value="Submit">
+    </form>
+    <!--pricing table-->
+
+    <pre class="tab = "></pre>
+
+    <!--table caption with link to amazon site-->
+    <table>
+        <caption>
+            <h4><u>Pricing:</u></h4>
+            <h5>Personal accounts allow only 1 private repo, please visit our <a href="https://www.amazon.com/ ">main site</a> for more information</h5>
+
+        </caption>
+        <tr id="row 0 ">
+            <td></td>
+            <td>Personal (1-3 users)</td>
+            <td>Business (4-20 users)</td>
+            <td>Enterprise (21+ users)</td>
+
+
+        </tr>
+        <tr id="row 1 ">
+
+            <td>1 Repo: </td>
+            <td>Free</td>
+            <td>$ 12 repo/month</td>
+            <td rowspan="4 "> Contact Sales</td>
+
+        </tr>
+        <tr id="row 3 ">
+            <td>2-9 Repos: </td>
+            <td>$ 8 repo/month</td>
+            <td>$ 10 repo/month</td>
+
+        </tr>
+        <tr id="row 4 ">
+            <td>10+ Repos: </td>
+            <td>$ 6 repo/month</td>
+            <td>$ 8 repo/month</td>
+
+
+
+
+
+        </tr>
+    </table>
+
+
+</body>
+
+<footer>
+
+
+</footer>
+
+</html>
