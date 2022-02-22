@@ -25,7 +25,9 @@ hr {
     background-color: black;
 }
 
-img {
+.bee-img {
+    /* url('Assignment1-AndruskoD/bee.jpg');*/
+    content: url(bee.jpg);
     margin-left: auto;
     margin-right: auto;
     width: 200px;
